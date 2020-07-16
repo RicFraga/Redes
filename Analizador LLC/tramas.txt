@@ -1,0 +1,260 @@
+***************************TRAMA #1 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Trama no Numerada p: SABME
+***************************TRAMA #2 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Trama no Numerada f: UA
+***************************TRAMA #3 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+p
+Trama de Supervisión: 	 N(R) = 0	SS = RR
+***************************TRAMA #4 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+f
+Trama de Supervisión: 	 N(R) = 0	SS = RR
+***************************TRAMA #5 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	18 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+p
+Trama de Información:  	N(S) = 0, N(R) = 0
+***************************TRAMA #6 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	18 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+p
+Trama de Información:  	N(S) = 0, N(R) = 1
+***************************TRAMA #7 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+f
+Trama de Supervisión: 	 N(R) = 1	SS = RR
+***************************TRAMA #8 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+f
+Trama de Supervisión: 	 N(R) = 1	SS = RR
+***************************TRAMA #9 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	172 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #10 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #11 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	95 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #12 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #13 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	145 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #14 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #15 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	70 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #16 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #17 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	126 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #18 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #19 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #20 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	126 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #21 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #22 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #23 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	18 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+p
+Trama de Información:  	N(S) = 5, N(R) = 5
+***************************TRAMA #24 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+f
+Trama de Supervisión: 	 N(R) = 6	SS = RR
+***************************TRAMA #25 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	03:00:00:00:00:01
+MAC Origen: 	00:04:ac:44:4d:02
+Tamaño: 	139 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #26 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	53 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #27 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	53 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+***************************TRAMA #28 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	18 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+p
+Trama de Información:  	N(S) = 7, N(R) = 6
+***************************TRAMA #29 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+f
+Trama de Supervisión: 	 N(R) = 8	SS = RR
+***************************TRAMA #30 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	18 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+p
+Trama de Información:  	N(S) = 8, N(R) = 6
+***************************TRAMA #31 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+f
+Trama de Supervisión: 	 N(R) = 9	SS = RR
+***************************TRAMA #32 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Trama no Numerada p: DISC
+***************************TRAMA #33 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Trama no Numerada f: UA
+

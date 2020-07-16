@@ -1,0 +1,188 @@
+***************************TRAMA #1 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	ff:ff:ff:ff:ff:ff
+MAC Origen: 	00:23:8b:46:e9:ad
+Tipo 2054
+Ethertype : ARP ❤ ❤
+Protocolo ARP
+***************************TRAMA #2 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:45:9d:1e:a2
+Tipo 2054
+Ethertype : ARP ❤ ❤
+Protocolo ARP
+***************************TRAMA #3 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:1f:45:9d:1e:a2
+MAC Origen: 	00:23:8b:46:e9:ad
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+Otro
+***************************TRAMA #4 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Hardware Address Type: IEEE 802 LAN
+Otro
+p
+Trama de Información:  	N(S) = 64, N(R) = 73
+***************************TRAMA #5 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	ff:ff:ff:ff:ff:ff
+MAC Origen: 	00:23:8b:46:e9:ad
+Tipo 2054
+Ethertype : ARP ❤ ❤
+Protocolo ARP
+***************************TRAMA #6 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:45:9d:1e:a2
+Tipo 2054
+Ethertype : ARP ❤ ❤
+Protocolo ARP
+***************************TRAMA #7 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:45:9d:1e:a2
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+Otro
+p
+Trama de Información:  	N(S) = 0, N(R) = 55
+***************************TRAMA #8 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:1f:45:9d:1e:a2
+MAC Origen: 	00:23:02:03:04:05
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+Otro
+***************************TRAMA #9 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:1f:45:9d:1e:a2
+MAC Origen: 	00:23:8b:46:e9:ad
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+Otro
+***************************TRAMA #10 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:02:03:04:05
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Hardware Address Type: IEEE 802 LAN
+Otro
+p
+Trama de Información:  	N(S) = 6, N(R) = 99
+***************************TRAMA #11 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	11:11:11:11:11:11
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Hardware Address Type: IEEE 802 LAN
+Otro
+***************************TRAMA #12 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:02:03:04:05
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+Otro
+***************************TRAMA #13 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:01:02:03:04:05
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Hardware Address Type: Ethernet
+Otro
+Trama no Numerada f: UA
+***************************TRAMA #14 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:1f:45:9d:1e:a2
+MAC Origen: 	00:1c:c0:7b:35:a1
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+Otro
+***************************TRAMA #15 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:45:9d:1e:a2
+Tipo 32821
+Otro
+***************************TRAMA #16 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	22:22:22:22:22:22
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Hardware Address Type: IEEE 802 LAN
+Otro
+Trama no Numerada p: 
+***************************TRAMA #17 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Hardware Address Type: IEEE 802 LAN
+Otro
+Trama no Numerada p: DISC
+***************************TRAMA #18 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	02:ff:53:c3:e9:ab
+MAC Origen: 	00:ff:66:7f:d4:3c
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+Otro
+***************************TRAMA #19 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+Hardware Address Type: Ethernet
+Otro
+Trama no Numerada f: RD
+***************************TRAMA #20 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:ff:66:7f:d4:3c
+MAC Origen: 	02:ff:53:c3:e9:ab
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+Otro
+
+
+
+

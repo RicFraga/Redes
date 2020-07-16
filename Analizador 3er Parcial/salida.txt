@@ -1,0 +1,272 @@
+
+
+
+-------------------------------------------------------------------------------------------------
+				Ricardo Alcaraz Fraga
+				# Boleta: 2018630891
+-------------------------------------------------------------------------------------------------
+
+
+*************************** TRAMA #1 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	ff:ff:ff:ff:ff:ff
+MAC Origen: 	00:23:8b:46:e9:ad
+Tipo 2054
+Ethertype : ARP ❤ ❤
+❤ ❤ Protocolo ARP ❤ ❤
+Protocol Address Type: 2048 IPv4 (0x8000)
+Hardware Address Length: Ethernet/IEEE 802
+Protocol Address Length: IPv4
+Request
+Source Hardware Address: 00:23:8b:46:e9:ad
+Source Protocol Address: 94:cc:39:cb:00:00
+Target Hardware Address: 00:00:00:00:94:cc
+Target Protocol Address: 39:fe:00:00:00:00
+
+
+
+*************************** TRAMA #2 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:45:9d:1e:a2
+Tipo 2054
+Ethertype : ARP ❤ ❤
+❤ ❤ Protocolo ARP ❤ ❤
+Hardware Address Type: Ethernet
+Protocol Address Type: 2048 IPv4 (0x8000)
+Hardware Address Length: Ethernet/IEEE 802
+Protocol Address Length: IPv4
+Reply
+Source Hardware Address: 00:1f:45:9d:1e:a2
+Source Protocol Address: 94:cc:39:fe:00:23
+Target Hardware Address: 8b:46:e9:ad:94:cc
+Target Protocol Address: 39:cb:00:00:00:00
+
+
+
+*************************** TRAMA #3 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:1f:45:9d:1e:a2
+MAC Origen: 	00:23:8b:46:e9:ad
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+El datagrama tiene opciones
+Protocolo: UDP
+Header Checksum: 6bf0
+
+
+*************************** TRAMA #4 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:df:1b
+MAC Origen: 	00:02:b3:9c:ae:ba
+Tamaño: 	4 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+
+
+*************************** TRAMA #5 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	ff:ff:ff:ff:ff:ff
+MAC Origen: 	00:23:8b:46:e9:ad
+Tipo 2054
+Ethertype : ARP ❤ ❤
+❤ ❤ Protocolo ARP ❤ ❤
+Protocol Address Type: 2048 IPv4 (0x8000)
+Hardware Address Length: Ethernet/IEEE 802
+Protocol Address Length: IPv4
+Inv Request
+Source Hardware Address: 00:23:8b:46:e9:ad
+Source Protocol Address: 94:cc:39:cb:00:00
+Target Hardware Address: 00:00:00:00:94:cc
+Target Protocol Address: 3a:e1:00:00:00:00
+
+
+
+*************************** TRAMA #6 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:45:9d:1e:a2
+Tipo 2054
+Ethertype : ARP ❤ ❤
+❤ ❤ Protocolo ARP ❤ ❤
+Protocol Address Type: 2048 IPv4 (0x8000)
+Hardware Address Length: Ethernet/IEEE 802
+Protocol Address Length: IPv4
+Inv Reply
+Source Hardware Address: 00:1f:45:9d:1e:a2
+Source Protocol Address: 94:cc:3a:e1:00:23
+Target Hardware Address: 8b:46:e9:ad:94:cc
+Target Protocol Address: 39:cb:00:00:00:00
+
+
+
+*************************** TRAMA #7 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:45:9d:1e:a2
+Tipo 2048
+p
+Trama de Información:  	N(S) = 0, N(R) = 55
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+La trama tiene costo minimo
+Total Length: 111 bytes
+
+
+*************************** TRAMA #8 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:1f:45:9d:1e:a2
+MAC Origen: 	00:23:8b:46:e9:ad
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+La trama tiene costo minimo
+Total Length: 66 bytes
+
+
+*************************** TRAMA #9 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:1f:45:9d:1e:a2
+MAC Origen: 	00:23:8b:46:e9:ad
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+La trama tiene costo minimo
+Total Length: 60 bytes
+
+
+*************************** TRAMA #10 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:45:9d:1e:a2
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+La trama tiene costo minimo
+Total Length: 60 bytes
+
+
+*************************** TRAMA #11 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:1f:45:9d:1e:a2
+MAC Origen: 	00:1c:c0:7b:35:a1
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+El datagrama tiene opciones
+Protocolo: ICMP
+Source Address: 	94.cc.39.c3
+
+
+*************************** TRAMA #12 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:23:8b:46:e9:ad
+MAC Origen: 	00:1f:45:9d:1e:a2
+Tipo 32821
+Otro
+
+
+*************************** TRAMA #13 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	3 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+
+
+*************************** TRAMA #14 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	02:ff:53:c3:e9:ab
+MAC Origen: 	00:ff:66:7f:d4:3c
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+La trama tiene costo minimo
+Total Length: 48 bytes
+Protocol: TCP
+Sequence number: 0
+No options
+
+
+*************************** TRAMA #15 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:ff:66:7f:d4:3c
+MAC Origen: 	02:ff:53:c3:e9:ab
+Tipo 2048
+Ethertype: IP
+❤ ❤ Protocolo IP ❤ ❤ 
+La trama tiene costo minimo
+Total Length: 48 bytes
+Protocol: TCP
+Sequence number: 0
+No options
+
+
+*************************** TRAMA #16 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	00:02:b3:9c:ae:ba
+MAC Origen: 	00:02:b3:9c:df:1b
+Tamaño: 	18 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+
+
+*************************** TRAMA #17 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	90:60:f8:90:fd:7f
+MAC Origen: 	00:00:00:c2:71:fa
+Tipo 42006
+f
+Trama de Información:  	N(S) = 32, N(R) = 21
+Otro
+
+
+*************************** TRAMA #18 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	90:60:f8:90:fd:7f
+MAC Origen: 	00:00:00:00:00:00
+Tamaño: 	0 bytes
+❤ ❤ Protocolo LLC ❤ ❤
+
+
+*************************** TRAMA #19 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	47:73:f8:90:fd:7f
+MAC Origen: 	00:00:cf:78:f8:90
+Tipo 64895
+Otro
+
+
+*************************** TRAMA #20 *********************************************
+
+❤ ❤ Cabecera Ethernet ❤ ❤
+MAC Destino: 	d3:7c:f8:90:fd:7f
+MAC Origen: 	00:00:ff:7c:f8:90
+Tipo 64895
+p
+Trama de Información:  	N(S) = 14, N(R) = 62
+Otro
+
+
+
+
+
+

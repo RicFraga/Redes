@@ -1,0 +1,63 @@
+* Las redes locales se componen de un conjunto de dispositivos que deben compartir la capacidad de transmisión de la red a la que se encuentran conectados
+* Para evitar errores en esta transmisión existe el contro de acceso al medio
+* El protocolo de CAM es el factor que más caracteriza a una LAN, de este depende el rendimiento, fiabilidad, disponibilidad y gestión de red
+    - RENDIMIENTO: grado de aprovechamiento del medio, capacidad de repartir el derecho de acceso y la resolución de conflictos de acceso
+    - FIABILIDAD: asegurar un servicio continuo sin errores
+    - DISPONIBILIDAD: buena repartición de oportunidad de acceso
+    - GESTION DE RED: reconfiguración de red, gestión de nodos con prioridades, broadcasting
+
+ESQUEMA CENTRALIZADO --> se garantiza el derecho de acceso a la red
+ Una estación que desee transmitir debe esperar autorización de la estación maestra
+
+VENTAJAS:
+    - Permite un mayor control sobre el acceso
+    - Se facilita la gestión de red
+    - La lógica de las estaciones no maestras es sencilla
+INCONVENIENTES:
+    - Gran vulnerabilidad de red
+    - La estación maestra puede actuar como cuello de botella
+
+PROCEDIMIENTOS DE COMPARACIÓN 
+Más utilizados: CSMA/CD, DQDB
+
+METODOS DE COMPARTICIÓN DEL MEDIO
+Técnicas que permiten asignar la capacidad del medio dinámicamente en función del tráfico de los usuarios
+
+    - Controlado o Round Robin: "conceder a cada uno una oportunidad". Cada estación, por turno, recibe el permiso para transmitir
+    Durante esta oportunidad la estación puede declinar, transmitir, o bien transmitir sujeta a límites (cantidad de tiempo)
+    - Contienda: cualquier estación es libre de lanzar sus mensajes en cualquier momento, sin saber si alguna otra estación también lo hizo,
+    si otra estación también lo hizo se produce una colición de los mensajes que fueron lanzados, en este momento se disparan algoritmos de
+    resolución de coliciones (Métodos de contienda).
+    - Clasificación de acuerdo a si poseen información o no del estado del canal (libre/ocupado): 
+        > Técnicas con escucha
+        > Técnicas sin escucha (transmisión sorda)
+        >>Esta escucha normalmente se realiza por detección de la presencia de la señal -> técnicas de Acceso Múltiple con Detección de Portadora
+        (CSMA, Carrier Sense Multiple Access)
+        > Técnicas troceadas (slotted)
+        > Técncias no troceadas (unslotted)
+    - Reserva: los nodos solicitan una resetva y no inician la transmisión de la información hasta que se les concede
+        > Subdivisiones de Reserva:
+         >> Sistemas Centralizados: usualmente conformados por dos canales, uno asignado a la transimisión de mensajes y otro a resolver las demandas
+        de reserva
+        >> Sistemas Distribuidos: la asignación de las reservas se realiza colectivamente por todos los nodos de la red
+
+ACCESO CONTROLADO
+Control Centralizado: Sondeo
+    * Ampliamente utilizado en las tradicionales redes de área extensa (WAN)
+    * Se fundamente en la relación maestro-esclavo 
+    * Tomando como ejemplo la topología en anillo, para que un nodo pueda transmitir debe recibir permiso del nodo central a través de un mensaje de "sondeo"
+    * Este permiso va pasando secuencialmente de estación en estación a lo largo de toda la red. La estación puede transmitir cuando recibe permiso
+    * La inconveniencia de esta técnica reside en la necesidad de que la comunicación entee dos nodos cualquiera por la estación central
+
+CONTROL DISTRIBUIDO
+    * Forma de interrogación distribuida en la que todas las estaciones de la red intervienen en la circulación de un paquete especial de información que recibe
+    el nombre de testigo (token) 
+    * El token indica, a la estación que lo recibe, que tiene a su disposición el medio para efectuar una transmisión
+
+ACCESO ALEATORIO O CONTIENDA
+    * No es predecible cuándo va a transmitir una estación
+    * No existe control que determine el orden de transmisión, todas las estaciones compiten por el derecho de acceso
+    * METODO ALOHA:
+        > Transmitir el mensaje en cuanto hubiera uno preparado para ello
+        > La estación escucha el medio durante un período igual al doble del tiempo de propagación entre las dos estaciones más separadas
+        > La utilización máxima del canal utilizando este método aumenta rápidamente el número de colisiones, la utilización máxima del canal es del 18%

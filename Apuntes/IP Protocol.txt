@@ -1,0 +1,125 @@
+************+*******************************************************************************
+
+
+					IP HEADER
+
+
+********************************************************************************************
+
+Version	1/2 byte
+T[14] >> 4
+
+********************************************************************************************
+
+Internet Header Length	1/2 byte
+(T[14] & 15) * 4
+
+Internet Header Length => Number of 32-bits words (4 bytes)
+			Minimum value = 5 (20 bytes) and Maximum value = 15 (60 bytes)
+
+********************************************************************************************
+
+Type of Service 1 byte
+T[15]
+
+********************************************************************************************
+
+Total Length 2 bytes
+T[16] >> 8 + T[17] (unity = bytes) (size = 2^16 bytes = 65,536)
+
+********************************************************************************************
+
+Identification	2 bytes
+T[18] >> 8 + T[19] (print in decimal)
+Id number != Sequence number
+
+********************************************************************************************
+
+Flags 3 bits
+T[20] & 6
+T[20] reaches until XDM_____ 2^7 = 64
+
+XDM
+X(reserved to be 0)
+D(1 = Do not fragment)	T[20] & 64
+M(1 = More Fragments)	T[20] & 32
+
+********************************************************************************************
+
+Fragment Offset 15 bits  (given in bytes)
+T[20] >> 8 + T[21]
+	
+fffff ____ ____
+
+f - flag bits
+- - FO bits
+
+Example
+1500
+
+- 1500 / 8 = 187.5 = 188
+- 188 x 8 = 1504
+
+********************************************************************************************
+
+Time to Live 1 byte
+T[22]
+"Amount of allowed jumps" to avoid floods
+Maximum jumps = 255, because the size of the field is 1 byte
+
+********************************************************************************************
+
+Protocol  1 byte
+T[23]
+
+'With a switch'
+The protocol is not inmediatly after Protocol Campus, according to the size
+
+T[14 + IHL*4]	if IHL is not saved as bytes
+
+Only 80 combinations are used, as it is a Byte Oriented Protocol
+
+********************************************************************************************
+ 
+Header Checksum  2 bytes
+Only the header checksum
+printf("%x%x \n",T[24], T[25])
+
+********************************************************************************************
+
+Source Address  4 bytes
+
+T[26] -> T[29]
+
+********************************************************************************************
+
+Destination Address  4 bytes
+
+T[30] -> T[33]
+
+********************************************************************************************
+
+Options (variable 4 - 40)
+T[43] - ?
+'Only print in hexadecimal'
+Options exist <-> IHL > 5
+
+Are there options? 
+	 5 = NO, if IHL > 5, options = (5 - IHL) * 4 
+	 6 = 4 bytes of options
+	 8 = 12 bytes of options
+
+	The options come along in multiples of 4
+
+********************************************************************************************
+
+
+- If there is an IP datagram with minimum cost, print the checksum, how would you do it?	
+	
+	Pseudocode
+
+	if(ToT == 2048)							// IP?
+		if(T[15] & 2)						// Minimum cost?
+			printf("Checksum: %x%x\n", T[24], T[25]);	// Print Checksum
+
+- Everything (that has)	with unities
